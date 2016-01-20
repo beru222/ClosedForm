@@ -78,3 +78,14 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 *.stTheme.cache
 *.sublime-workspace
 *.sublime-project
+#####
+# CodeIgniter-3.0.4
+# https://github.com/github/gitignore/blob/master/CodeIgniter.gitignore
+#####
+*/config/development
+*/logs/log-*.php
+!*/logs/index.html
+*/cache/*
+!*/cache/index.html
+!*/cache/.htaccess
+
